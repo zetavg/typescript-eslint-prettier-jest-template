@@ -1,0 +1,27 @@
+{
+  "name": "typescript-eslint-prettier-jest-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29",
+    "@typescript-eslint/eslint-plugin": "^6",
+    "@typescript-eslint/parser": "^6",
+    "eslint": "^8",
+    "eslint-config-prettier": "^9",
+    "eslint-plugin-jest": "^27",
+    "eslint-plugin-prettier": "^5",
+    "eslint-plugin-simple-import-sort": "^10",
+    "jest": "^29",
+    "prettier": "^3",
+    "ts-jest": "^29",
+    "typescript": "^5"
+  }
+}
